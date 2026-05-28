@@ -160,7 +160,7 @@ export default function HomePage() {
       <footer className="border-t border-white/10 px-6 py-10 text-sm uppercase text-zinc-600">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 md:flex-row">
           <div className="space-y-2 text-center tracking-[0.15em] md:text-left"><p>© 2026 Leonardo Carnevale</p><p className="inline-flex items-center gap-2"><MapPin size={14} /> Via Crescentino 91 · Roma</p><p>P. IVA 17843991005</p></div>
-          <div className="flex items-center gap-6 text-xs tracking-[0.15em]"><a href="#" className="transition hover:text-white">Privacy Policy</a><a href="#" className="transition hover:text-white">Cookie Policy</a></div>
+          <div className="flex items-center gap-6 text-xs tracking-[0.15em]"><a href="https://www.iubenda.com/privacy-policy/37569311" target="_blank" rel="noreferrer" className="transition hover:text-white">Privacy Policy</a><a href="https://www.iubenda.com/privacy-policy/37569311/cookie-policy" target="_blank" rel="noreferrer" className="transition hover:text-white">Cookie Policy</a></div>
         </div>
       </footer>
       <CookieBanner />
