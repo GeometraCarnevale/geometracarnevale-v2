@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -37,7 +38,24 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="it">
-      <body className={`${inter.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} font-sans`}>
+  {children}
+
+  <Script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=AW-18192593806"
+  />
+
+  <Script id="google-ads">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18192593806');
+    `}
+  </Script>
+</body>
     </html>
   );
 }
