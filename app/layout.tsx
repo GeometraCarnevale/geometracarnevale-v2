@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Leonardo Carnevale | Geometra Roma",
+  title: "Geom. Leonardo Carnevale | Pratiche Catastali e Urbanistiche Roma",
   description:
     "Leonardo Carnevale, geometra a Roma. Pratiche catastali, pratiche urbanistiche, APE, condoni edilizi, SCIA nuova attività, occupazione di suolo pubblico e perizie di stima.",
   keywords: [
