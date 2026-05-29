@@ -111,7 +111,6 @@ export default function HomePage() {
             <p className="mx-auto mb-10 max-w-3xl text-lg leading-relaxed text-zinc-300">Pratiche catastali, pratiche urbanistiche, APE, condoni edilizi, SCIA nuova attività, occupazione di suolo pubblico, perizie di stima e consulenza tecnica professionale per privati e attività.</p>
             <div className="flex flex-col justify-center gap-5 sm:flex-row">
               <a href="#contatti" className="rounded-full border border-white/20 px-8 py-4 text-sm uppercase tracking-[0.2em] transition duration-300 hover:bg-white hover:text-black">Richiedi consulenza</a>
-              <a href="https://wa.me/393319680185" target="_blank" rel="noreferrer" className="rounded-full bg-white px-8 py-4 text-sm uppercase tracking-[0.2em] text-black transition duration-300 hover:bg-zinc-200">WhatsApp</a>
             </div>
           </div>
         </div>
