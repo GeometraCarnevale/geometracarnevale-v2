@@ -81,7 +81,7 @@ export default function HomePage() {
             <div className="relative h-14 w-14 overflow-hidden rounded-2xl border border-white/10 bg-white/90 shadow-lg transition duration-300 group-hover:border-white/40">
               <Image src="/logo-geometra-carnevale.jpg" alt="Logo Geometra Carnevale" fill priority className="object-cover" />
             </div>
-            <h1 className="text-lg font-light uppercase tracking-[0.2em] transition duration-300 group-hover:text-zinc-300 md:text-xl">Leonardo Carnevale</h1>
+            <h1 className="text-lg font-light uppercase tracking-[0.2em] transition duration-300 group-hover:text-zinc-300 md:text-xl">Geom. Leonardo Carnevale</h1>
           </a>
           <nav className="hidden items-center gap-10 text-sm uppercase tracking-[0.15em] text-zinc-300 md:flex">
             {menuItems.map(([label, href]) => (
@@ -118,8 +118,8 @@ export default function HomePage() {
 
       <section id="chi-sono" className="border-t border-white/10 py-32">
         <div className="mx-auto grid max-w-6xl items-center gap-16 px-6 md:grid-cols-2">
-          <div><p className="mb-6 text-sm uppercase tracking-[0.4em] text-zinc-500">Chi Sono</p><h3 className="mb-8 text-4xl font-extralight leading-tight md:text-5xl"><span>Leonardo Carnevale</span><br /><span>Geometra</span></h3></div>
-          <div className="space-y-6 text-lg leading-relaxed text-zinc-400"><p>Leonardo Carnevale, geometra iscritto all’albo nel 2024 con esperienza pregressa di 5 anni nel settore tecnico e amministrativo.</p><p>Affiliato ad uno studio tecnico con esperienza ventennale, opero nel campo catastale, urbanistico ed edilizio con un approccio moderno, preciso e orientato al cliente.</p></div>
+          <div><p className="mb-6 text-sm uppercase tracking-[0.4em] text-zinc-500">Chi Sono</p><h3 className="mb-8 text-4xl font-extralight leading-tight md:text-5xl"><span>Leonardo Carnevale</span></h3></div>
+          <div className="space-y-6 text-lg leading-relaxed text-zinc-400"><p>Geometra iscritto all’albo nel 2024 con esperienza pregressa di 5 anni nel settore tecnico e amministrativo.</p><p>Affiliato ad uno studio tecnico con esperienza ventennale, opero nel campo catastale, urbanistico ed edilizio con un approccio moderno, preciso e orientato al cliente.</p></div>
         </div>
       </section>
 
