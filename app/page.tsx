@@ -34,7 +34,7 @@ const servizi: Servizio[] = [
   href: "/certificazione-energetica-ape"
 },
   { title: "Apertura Attività", desc: "Apertura attività commerciali e gestione pratiche amministrative.", Icon: Building2, href: "/apertura-attivita", },
-  { title: "Perizie di Stima", desc: "Valutazioni immobiliari e consulenze tecniche estimative.", Icon: Ruler },
+  { title: "Perizie Tecniche", desc: "Valutazioni immobiliari e consulenze tecniche estimative.", Icon: Ruler, href: "/perizie-tecniche", },
 ];
 
 const menuItems: [string, string][] = [
