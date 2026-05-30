@@ -101,7 +101,7 @@ export default function PraticheCatastaliPage() {
           </aside>
 
           <div className="space-y-20">
-            <section id="cosa-sono">
+            <section id="cosa-sono" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Cosa sono le pratiche catastali
               </h2>
@@ -114,7 +114,7 @@ export default function PraticheCatastaliPage() {
               </p>
             </section>
 
-            <section id="quando-servono">
+            <section id="quando-servono" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">Quando servono</h2>
 
               <p className="mb-6 leading-relaxed text-zinc-400">
@@ -143,7 +143,7 @@ export default function PraticheCatastaliPage() {
               </div>
             </section>
 
-            <section id="servizi-offerti">
+            <section id="servizi-offerti" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">Servizi offerti</h2>
 
               <div className="grid gap-4 sm:grid-cols-2">
@@ -167,7 +167,7 @@ export default function PraticheCatastaliPage() {
               </div>
             </section>
 
-            <section id="docfa">
+            <section id="docfa" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">Pratiche DOCFA</h2>
 
               <p className="leading-relaxed text-zinc-400">
@@ -178,7 +178,7 @@ export default function PraticheCatastaliPage() {
               </p>
             </section>
 
-            <section id="tempi">
+            <section id="tempi" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Tempi di lavorazione
               </h2>
@@ -191,7 +191,7 @@ export default function PraticheCatastaliPage() {
               </p>
             </section>
 
-            <section id="faq">
+            <section id="faq" className="scroll-mt-32">
               <h2 className="mb-8 text-3xl font-light">Domande frequenti</h2>
 
               <div className="space-y-5">
