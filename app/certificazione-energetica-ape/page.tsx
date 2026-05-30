@@ -95,7 +95,7 @@ export default function ApePage() {
           </aside>
 
           <div className="space-y-20">
-            <section id="cos-e-ape">
+            <section id="cos-e-ape" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Cos’è l’APE
               </h2>
@@ -109,7 +109,7 @@ export default function ApePage() {
               </p>
             </section>
 
-            <section id="quando-serve">
+            <section id="quando-serve" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Quando serve
               </h2>
@@ -138,7 +138,7 @@ export default function ApePage() {
               </div>
             </section>
 
-            <section id="come-viene-redatto">
+            <section id="come-viene-redatto" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Come viene redatto
               </h2>
@@ -164,7 +164,7 @@ export default function ApePage() {
               </div>
             </section>
 
-            <section id="tempi">
+            <section id="tempi" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Tempi di rilascio
               </h2>
@@ -178,7 +178,7 @@ export default function ApePage() {
               </p>
             </section>
 
-            <section id="vendita-locazione">
+            <section id="vendita-locazione" className="scroll-mt-32">
               <h2 className="mb-8 text-3xl font-light">
                 APE per vendita e locazione
               </h2>
@@ -208,7 +208,7 @@ export default function ApePage() {
               </div>
             </section>
 
-            <section id="faq">
+            <section id="faq" className="scroll-mt-32">
               <h2 className="mb-8 text-3xl font-light">
                 Domande frequenti
               </h2>
