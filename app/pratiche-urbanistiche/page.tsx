@@ -120,7 +120,6 @@ export default function PraticheUrbanistichePage() {
                 {[
                   "Ristrutturazioni interne",
                   "Modifiche della distribuzione degli spazi",
-                  "Apertura nuove attività",
                   "Interventi edilizi",
                   "Cambio destinazione d'uso",
                   "Regolarizzazione di opere esistenti",
@@ -209,10 +208,6 @@ export default function PraticheUrbanistichePage() {
                   {
                     q: "È possibile regolarizzare opere già eseguite?",
                     a: "Dipende dalla situazione dell'immobile e dalla normativa applicabile. È necessaria una verifica preliminare.",
-                  },
-                  {
-                    q: "Posso aprire un'attività senza SCIA?",
-                    a: "Dipende dal tipo di attività. In molti casi la SCIA rappresenta un adempimento obbligatorio.",
                   },
                   {
                     q: "Quanto costa una pratica urbanistica?",
