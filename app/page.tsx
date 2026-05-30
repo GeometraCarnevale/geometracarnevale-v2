@@ -33,7 +33,6 @@ const servizi: Servizio[] = [
   Icon: Zap,
   href: "/certificazione-energetica-ape"
 },
-  { title: "Condoni Edilizi", desc: "Gestione e regolarizzazione pratiche di condono edilizio.", Icon: ClipboardCheck },
   { title: "SCIA Nuova Attività", desc: "Apertura attività commerciali e gestione pratiche amministrative.", Icon: Building2 },
   { title: "Perizie di Stima", desc: "Valutazioni immobiliari e consulenze tecniche estimative.", Icon: Ruler },
   { title: "Occupazione Suolo Pubblico", desc: "Pratiche OSP per attività, cantieri, dehors e autorizzazioni comunali.", Icon: Landmark }
