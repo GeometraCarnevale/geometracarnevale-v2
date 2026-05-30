@@ -97,7 +97,7 @@ export default function PraticheUrbanistichePage() {
           </aside>
 
           <div className="space-y-20">
-            <section id="cosa-sono">
+            <section id="cosa-sono" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Cosa sono le pratiche urbanistiche
               </h2>
@@ -111,7 +111,7 @@ export default function PraticheUrbanistichePage() {
               </p>
             </section>
 
-            <section id="quando-servono">
+            <section id="quando-servono" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Quando servono
               </h2>
@@ -135,7 +135,7 @@ export default function PraticheUrbanistichePage() {
               </div>
             </section>
 
-            <section id="servizi-offerti">
+            <section id="servizi-offerti" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Servizi offerti
               </h2>
@@ -159,7 +159,7 @@ export default function PraticheUrbanistichePage() {
               </div>
             </section>
 
-            <section id="cila">
+            <section id="cila" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">CILA</h2>
 
               <p className="leading-relaxed text-zinc-400">
@@ -169,7 +169,7 @@ export default function PraticheUrbanistichePage() {
               </p>
             </section>
 
-            <section id="scia">
+            <section id="scia" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">SCIA</h2>
 
               <p className="leading-relaxed text-zinc-400">
@@ -179,7 +179,7 @@ export default function PraticheUrbanistichePage() {
               </p>
             </section>
 
-            <section id="sanatorie">
+            <section id="sanatorie" className="scroll-mt-32">
               <h2 className="mb-6 text-3xl font-light">
                 Sanatorie e Condoni
               </h2>
@@ -191,7 +191,7 @@ export default function PraticheUrbanistichePage() {
               </p>
             </section>
 
-            <section id="faq">
+            <section id="faq" className="scroll-mt-32">
               <h2 className="mb-8 text-3xl font-light">
                 Domande frequenti
               </h2>
