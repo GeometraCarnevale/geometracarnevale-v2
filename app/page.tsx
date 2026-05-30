@@ -29,7 +29,7 @@ const servizi: Servizio[] = [
   { title: "Pratiche Urbanistiche", desc: "CILA, SCIA, sanatorie e consulenza urbanistica.", Icon: Home, href: "/pratiche-urbanistiche", },
  {
   title: "APE",
-  desc: "Certificati di Prestazione Energetica per immobili residenziali e commerciali.",
+  desc: "Certificazioni energetiche per immobili residenziali e commerciali.",
   Icon: Zap,
   href: "/certificazione-energetica-ape"
 },
