@@ -9,6 +9,30 @@ export const metadata = {
 export default function ApePage() {
   return (
     <main className="min-h-screen bg-[#0d0d0d] text-white">
+      <header className="fixed left-0 top-0 z-40 w-full border-b border-white/10 bg-black/40 backdrop-blur-xl">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+    <Link href="/#home" className="group flex items-center gap-4">
+      <span className="text-lg font-light uppercase tracking-[0.2em] transition duration-300 group-hover:text-zinc-300 md:text-xl">
+        Geom. Leonardo Carnevale
+      </span>
+    </Link>
+
+    <nav className="hidden items-center gap-10 text-sm uppercase tracking-[0.15em] text-zinc-300 md:flex">
+      <Link href="/" className="hover:text-white">
+        Home
+      </Link>
+      <Link href="/#chi-sono" className="hover:text-white">
+        Chi sono
+      </Link>
+      <Link href="/#servizi" className="hover:text-white">
+        Servizi
+      </Link>
+      <Link href="/#contatti" className="hover:text-white">
+        Contatti
+      </Link>
+    </nav>
+  </div>
+</header>
       <section className="px-6 pt-32 pb-20 border-b border-white/10">
         <div className="mx-auto max-w-5xl">
           <p className="mb-6 text-sm uppercase tracking-[0.4em] text-zinc-500">
