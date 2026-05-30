@@ -150,6 +150,11 @@ return (
     </h4>
 
     <p className="leading-relaxed text-zinc-500">{item.desc}</p>
+    <div className="mt-8 flex justify-end">
+  <span className="text-3xl text-zinc-400 transition-all duration-300 group-hover:text-white group-hover:translate-x-1">
+  ❯
+</span>
+</div>
   </CardTag>
 );
             })}
