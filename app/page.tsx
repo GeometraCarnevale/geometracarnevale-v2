@@ -21,12 +21,18 @@ type Servizio = {
   title: string;
   desc: string;
   Icon: LucideIcon;
+  href?: string;
 };
 
 const servizi: Servizio[] = [
   { title: "Pratiche Catastali", desc: "DOCFA, variazioni catastali, accatastamenti, volture, visure e planimetrie.", Icon: FileText },
   { title: "Pratiche Urbanistiche", desc: "CILA, SCIA, sanatorie, pratiche edilizie e consulenza urbanistica.", Icon: Home },
-  { title: "APE", desc: "Certificati di Prestazione Energetica per immobili residenziali e commerciali.", Icon: Zap },
+ {
+  title: "APE",
+  desc: "Certificati di Prestazione Energetica per immobili residenziali e commerciali.",
+  Icon: Zap,
+  href: "/certificazione-energetica-ape"
+},
   { title: "Condoni Edilizi", desc: "Gestione e regolarizzazione pratiche di condono edilizio.", Icon: ClipboardCheck },
   { title: "SCIA Nuova Attività", desc: "Apertura attività commerciali e gestione pratiche amministrative.", Icon: Building2 },
   { title: "Perizie di Stima", desc: "Valutazioni immobiliari e consulenze tecniche estimative.", Icon: Ruler },
@@ -128,14 +134,26 @@ export default function HomePage() {
           <div className="mb-20 text-center"><p className="mb-6 text-sm uppercase tracking-[0.4em] text-zinc-500">Servizi</p><h3 className="text-4xl font-extralight md:text-6xl">Di cosa mi occupo</h3></div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {servizi.map((item) => {
-              const Icon = item.Icon;
-              return (
-                <div key={item.title} className="group rounded-[30px] border border-white/10 bg-white/[0.03] p-10 shadow-[0_8px_32px_rgba(255,255,255,0.03)] backdrop-blur-2xl transition duration-500 hover:border-white/30">
-                  <div className="mb-8 flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl bg-white text-black shadow-lg"><Icon size={28} strokeWidth={1.5} /></div>
-                  <h4 className="mb-6 text-2xl font-light transition group-hover:text-white">{item.title}</h4>
-                  <p className="leading-relaxed text-zinc-500">{item.desc}</p>
-                </div>
-              );
+  const Icon = item.Icon;
+  const CardTag = item.href ? "a" : "div";
+
+return (
+  <CardTag
+    key={item.title}
+    href={item.href}
+    className="group block rounded-[30px] border border-white/10 bg-white/[0.03] p-10 shadow-[0_8px_32px_rgba(255,255,255,0.03)] backdrop-blur-2xl transition duration-500 hover:border-white/30"
+  >
+    <div className="mb-8 flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl bg-white text-black shadow-lg">
+      <Icon size={28} strokeWidth={1.5} />
+    </div>
+
+    <h4 className="mb-6 text-2xl font-light transition group-hover:text-white">
+      {item.title}
+    </h4>
+
+    <p className="leading-relaxed text-zinc-500">{item.desc}</p>
+  </CardTag>
+);
             })}
           </div>
         </div>
