@@ -33,7 +33,7 @@ const servizi: Servizio[] = [
   Icon: Zap,
   href: "/certificazione-energetica-ape"
 },
-  { title: "SCIA Nuova Attività", desc: "Apertura attività commerciali e gestione pratiche amministrative.", Icon: Building2 },
+  { title: "Apertura Attività", desc: "Apertura attività commerciali e gestione pratiche amministrative.", Icon: Building2, href: "/apertura-attivita", },
   { title: "Perizie di Stima", desc: "Valutazioni immobiliari e consulenze tecniche estimative.", Icon: Ruler },
   { title: "Occupazione Suolo Pubblico", desc: "Pratiche OSP per attività, cantieri, dehors e autorizzazioni comunali.", Icon: Landmark }
 ];
