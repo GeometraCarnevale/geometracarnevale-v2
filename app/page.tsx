@@ -25,7 +25,7 @@ type Servizio = {
 };
 
 const servizi: Servizio[] = [
-  { title: "Pratiche Catastali", desc: "DOCFA, variazioni catastali, accatastamenti, volture, visure e planimetrie.", Icon: FileText, href: "/pratiche-catastali", },
+  { title: "Pratiche Catastali", desc: "DOCFA, volture, visure e planimetrie catastali.", Icon: FileText, href: "/pratiche-catastali", },
   { title: "Pratiche Urbanistiche", desc: "CILA, SCIA, sanatorie, pratiche edilizie e consulenza urbanistica.", Icon: Home, href: "/pratiche-urbanistiche", },
  {
   title: "APE",
@@ -151,7 +151,7 @@ return (
 
     <p className="leading-relaxed text-zinc-500">{item.desc}</p>
     <div className="mt-12 flex justify-end">
-  <span className="text-3xl text-zinc-300 transition-all duration-300 group-hover:text-white group-hover:translate-x-1">
+  <span className="text-3xl text-zinc-500 transition-all duration-300 group-hover:text-white group-hover:translate-x-1">
   ❯
 </span>
 </div>
