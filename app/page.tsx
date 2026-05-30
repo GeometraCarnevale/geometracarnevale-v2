@@ -26,15 +26,15 @@ type Servizio = {
 
 const servizi: Servizio[] = [
   { title: "Pratiche Catastali", desc: "DOCFA, volture, visure e planimetrie catastali.", Icon: FileText, href: "/pratiche-catastali", },
-  { title: "Pratiche Urbanistiche", desc: "CILA, SCIA, sanatorie, pratiche edilizie e consulenza urbanistica.", Icon: Home, href: "/pratiche-urbanistiche", },
+  { title: "Pratiche Urbanistiche", desc: "CILA, SCIA, sanatorie e consulenza urbanistica.", Icon: Home, href: "/pratiche-urbanistiche", },
  {
   title: "APE",
   desc: "Certificati di Prestazione Energetica per immobili residenziali e commerciali.",
   Icon: Zap,
   href: "/certificazione-energetica-ape"
 },
-  { title: "Apertura Attività", desc: "Apertura attività commerciali e gestione pratiche amministrative.", Icon: Building2, href: "/apertura-attivita", },
-  { title: "Perizie Tecniche", desc: "Valutazioni immobiliari e consulenze tecniche estimative.", Icon: Ruler, href: "/perizie-tecniche", },
+  { title: "Apertura Attività", desc: "Apertura attività commerciali e pratiche amministrative.", Icon: Building2, href: "/apertura-attivita", },
+  { title: "Perizie Tecniche", desc: "Valutazioni immobiliari e consulenze tecniche.", Icon: Ruler, href: "/perizie-tecniche", },
 ];
 
 const menuItems: [string, string][] = [
