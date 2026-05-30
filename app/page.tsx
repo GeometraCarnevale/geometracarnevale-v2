@@ -25,7 +25,7 @@ type Servizio = {
 };
 
 const servizi: Servizio[] = [
-  { title: "Pratiche Catastali", desc: "DOCFA, variazioni catastali, accatastamenti, volture, visure e planimetrie.", Icon: FileText },
+  { title: "Pratiche Catastali", desc: "DOCFA, variazioni catastali, accatastamenti, volture, visure e planimetrie.", Icon: FileText, href: "/pratiche-catastali", },
   { title: "Pratiche Urbanistiche", desc: "CILA, SCIA, sanatorie, pratiche edilizie e consulenza urbanistica.", Icon: Home },
  {
   title: "APE",
