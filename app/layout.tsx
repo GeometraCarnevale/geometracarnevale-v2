@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "Geom. Leonardo Carnevale | Pratiche Catastali e Urbanistiche Roma",
   description:
     "Leonardo Carnevale, geometra a Roma. Pratiche catastali, pratiche urbanistiche, APE, condoni edilizi, SCIA nuova attività, occupazione di suolo pubblico e perizie di stima.",
+  verification: {
+    google: "fA9j3spwoFpcH3Gqditfx6pTQIIgR9yqb_hbSB6DysY",
+  },
   keywords: [
     "geometra Roma",
     "Leonardo Carnevale",
